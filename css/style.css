@@ -269,7 +269,8 @@
 }
 
 .service-item:hover * {
-    color: var(--light) !important;
+    color: v
+    r(--light) !important;
 }
 
 
@@ -433,3 +434,122 @@
     padding-right: 0;
     border-right: none;
 }
+
+/*----new----*/
+
+.we-reinvent ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  .we-reinvent ul li {
+    font-size: 24px;
+    color: #5d5d5d;
+    width: 50%;
+    line-height: 26px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-left: solid 4px #fff;
+    cursor: pointer;
+  }
+  
+  .we-reinvent ul li.active {
+    color: #000;
+    border-left: solid 4px rgb(238, 109, 39);
+  }
+  
+  .we-reinvent ul li:hover {
+    color: #000;
+  }
+  
+  .we-reinvent {
+    position: relative;
+    padding-bottom: 0;
+    min-height: 470px;
+  }
+  .course-details {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: 30%;
+    background: rgb(238, 109, 39);
+    padding: 37px 51px;
+    min-height: 90%;
+  }
+  
+  .set-details {
+    display: table-cell;
+    height: 400px;
+    vertical-align: middle;
+  }
+  
+  .rankinglink {
+    color: #f54155 !important;
+    padding: 7px 12px;
+    font-size: 18px;
+    margin: 0 5px;
+    text-decoration: none;
+    position: absolute;
+    top: -85px;
+    right: 30px;
+    text-decoration: underline;
+  }
+  
+  .containerbox .heading a {
+    color: #e9495e;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  .containerbox {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0px;
+  }
+  
+  .containerbox h4 {
+    font-size: 16px;
+    color: #5e5a5a;
+    margin-bottom: 16px;
+  }
+  
+  .containerbox .faqanswer {
+    padding-left: 0;
+  }
+  
+  .containerbox .faqquestiontitle p {
+    font-size: 20px;
+  }
+  
+  .containerbox table {
+    margin-bottom: 37px;
+  }
+  
+  .course-details h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .course-details p {
+    font-size: 16px;
+    color: #fff;
+    margin: 20px 0 0;
+  }
+
+  .actbtn a {
+    display: inline-block;
+    border: solid 2px #fff;
+    color: #fff;
+    padding: 7px 12px;
+    font-size: 18px;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .actbtn {
+    margin: 25px auto;
+    text-align: center;
+  }

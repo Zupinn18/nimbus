@@ -642,4 +642,13 @@
     padding: 19px 0 8px;
     font-size: 15px;
   }
+
     /*----News end-----*/
+    /*----Courses Start----*/
+    .orange-heading{
+        color: orange;
+        font-size: 3rem;
+    }
+
+
+     /*----Courses end----*/

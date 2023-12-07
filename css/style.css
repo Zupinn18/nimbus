@@ -554,8 +554,15 @@
     text-align: center;
   }
 
-  .boxes:hover{
+  .cards{
+    background: var(--light);
+    border-radius: 10px;
+    box-shadow: 0 4px 44px rgba(63, 122, 161, 0.2);
+  }
+  
+  .cards :hover{
    color:white;
+   background-color: #181d38;
   }
 
   .our-event .heading {
@@ -646,9 +653,53 @@
     /*----News end-----*/
     /*----Courses Start----*/
     .orange-heading{
-        color: orange;
+        color: orange !important;
         font-size: 3rem;
     }
 
 
+
      /*----Courses end----*/
+
+
+     /*----Floating Social Buttons ---*/
+     .floating-social a, .floating-social button {
+        background-color: transparent;
+        border: none;
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+     .floating-social {
+        background: #fff;
+        border-radius: 50px;
+        bottom: 220px;
+        box-shadow: 0 4px 44px rgba(24,153,239,.2);
+        position: fixed;
+        right: 0px;
+        text-align: center;
+        width: 48px;
+        z-index: 9;
+    }
+
+    .floating-social button {
+        background-color: transparent;
+        border: none;
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .button-unstyled {
+        background: transparent;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    button {
+        cursor: pointer;
+    }
+    /*----Floating Social Buttons ends ---*/

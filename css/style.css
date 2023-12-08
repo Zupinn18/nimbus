@@ -88,10 +88,10 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 25px 0;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     outline: none;
 }
@@ -674,7 +674,7 @@
      .floating-social {
         background: #fff;
         border-radius: 50px;
-        bottom: 220px;
+        bottom: 270px;
         box-shadow: 0 4px 44px rgba(24,153,239,.2);
         position: fixed;
         right: 0px;

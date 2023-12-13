@@ -7,15 +7,12 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -32,19 +29,96 @@
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+    
+    
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/nam-logo-new-1-1.png" alt="" style="width: 200px; height: 70px;">
+     <!-- <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>eLEARNING</h2>---->
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="about.html" class="dropdown-item">About us</a>
+                        <a href="misson&vision.html" class="dropdown-item">Mission & Vision</a>
+                        <a href="chairmans's message.html" class="dropdown-item">Chairman's Message</a>
+                        <a href="Director'sMessage.html" class="dropdown-item">Director's Message</a>
+                        <a href="404.html" class="dropdown-item">Faculty</a>
+                        <a href="404.html" class="dropdown-item">Governing Council</a>
+                        <a href="404.html" class="dropdown-item">Advisiory Counsil</a>
+                        <a href="404.html" class="dropdown-item">Internal Committees</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Admissions</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="404.html" class="dropdown-item">Eligiblity</a>
+                        <a href="404.html" class="dropdown-item">Admissions Process</a>
+                        <a href="404.html" class="dropdown-item">Fee Structure</a>
+                        <a href="404.html" class="dropdown-item">Payment</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Memberships</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="404.html" class="dropdown-item">PEARSON UG ENTRANCE EXAM</a>
+                        <a href="404.html" class="dropdown-item">ICT ACADEMY</a>
+                        
+                    </div>
+                </div>
+                
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="Mba.html" class="dropdown-item">MBA</a>
+                        <a href="BBA.html" class="dropdown-item">BBA</a>
+                        <a href="Bcom.html" class="dropdown-item">B.COM.</a>
+                        <a href="Bca.html" class="dropdown-item">BCA</a>
+                        <a href="Bed.html" class="dropdown-item">B.ED.</a>
+                        <a href="BA.html" class="dropdown-item">BA</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">facilities</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="#" class="dropdown-item">Library</a>
+                        <a href="#" class="dropdown-item">Computer</a>
+                        <a href="#" class="dropdown-item">Sports</a>
+                        <a href="#" class="dropdown-item">Transport</a>
+                        <a href="#" class="dropdown-item">Cafeteria</a>
+                        <a href="#" class="dropdown-item">Smartclass</a>
+                        <a href="#" class="dropdown-item">Swayam</a>
+                        <a href="#" class="dropdown-item">Teacher Training Policy(AICTE) </a>
+                        <a href="#" class="dropdown-item">National Academic Depository</a>
+                        <a href="#" class="dropdown-item">Examination Reform Policy</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="alumni.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Alumni</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="404.html" class="dropdown-item">First ALumni Meet</a>
+                        <a href="404.html" class="dropdown-item">Second Alumni Meet</a>
+                        <a href="404.html" class="dropdown-item">Alumni Speak</a>
+                        
+                    </div>
+                </div>
+                <a href="placement.html" class="nav-item nav-link">Placements</a>
+                <a href="404.html" class="nav-item nav-link">Results</a>
+                <a href="Gallery.html" class="nav-item nav-link">Gallery</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Apply Now<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
-    </div>
-    <!-- Spinner End -->
-
-
-   
-
-
-    <!-- Header Start -->
+    </nav>
+  <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
@@ -62,6 +136,35 @@
     </div>
     <!-- Header End -->
 
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/1-834x1024.gif" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <!---<h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>--->
+                    <h1 class="mb-4">About Us</h1>
+                    <p class="mb-4">NIMBUS is one of the premier leading Management institute of Uttarakhand, established in 1998 under the management of Doon Educational Trust Society (DETS) which comprises of eminent educationists.</p>
+                    <p class="mb-4">NIMBUS has been active in the field of Management, Education and other areas  since more than two decades. It has established it’s name in the top business schools in Uttarakhand.  Other than classroom teaching, Nimbus has a strong industry tie-ups for the benefit  of the students to  gain practical knowledge of the business processes. The best of learning methodology has carved the students in such a way that various multinational companies regularly visit the campus for placements. </p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Regular Classes</p>
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Certified Degree</p>
+                        </div> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
@@ -112,212 +215,168 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to eLEARNING</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                    <h1 class="mb-4">Why Nimbus?</h1>
+                    <h6 class=" bg-white text-start text-primary pe-3">#Establishment and Legacy</h6>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i> Management institute in Uttarakhand.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Established in 1998 under the management of Doon Educational Trust Society.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Celebrating a silver jubilee legacy in education this year, our enduring commitment has fostered a tradition of excellence.</p>
+                    <h6 class=" bg-white text-start text-primary pe-3">#Recognition and Reputation</h6>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Earned a prominent position among the top management Institute in Uttarakhand.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Active engagement in Management education with a stellar reputation.</p>
+                    <h6 class=" bg-white text-start text-primary pe-3">#Industry Integration for Practical Learning</h6>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Strong industry tie-ups for practical knowledge acquisition.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Beyond classroom teaching, emphasizing real-world business processes.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Regular campus visits by various companies for placements.</p>
+                    <h6 class=" bg-white text-start text-primary pe-3">#Campus and Infrastructure</h6>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Oldest management institute in Uttarakhand.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Sprawling across 5 acres on the outskirts of Dehradun.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Lush green campus with state-of-the-art, technically advanced infrastructure.</p>
+                    <h6 class=" bg-white text-start text-primary pe-3">#Quality Education and Learning outcomes</h6>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Best learning methodologies shaping students for industry success.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Acknowledged by multinational companies attesting to the caliber of NAMians</p>
+                    <h6 class=" bg-white text-start text-primary pe-3">#Diverse Educational Endeavors</h6>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Extends to various educational spheres beyond management education </p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Learning curves in multiple sectors, setting benchmarks across Uttarakhand.</p>          
+                    <h6 class=" bg-white text-start text-primary pe-3">#Innovation and Future Focus</h6>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Proudly contributes to shaping tomorrow’s educational landscape.</p>
+                    <p class="mb-1"><i class="fa fa-arrow-right ms-3"></i>Record presentations, offer constructive feedback for improvement, and acknowledge strengths for encouragement.</p>   
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
-
-
-    <!-- Team Start -->
+     <!-- Our Exelance Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/1619020093IMG_5462.webp" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <!---<h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>--->
+                    <h1 class="mb-4">Our Excellence</h1>
+                    <ul>
+                        <li>24 Years of experience in nurturing students into leaders with global mindset.</li>
+                        <li>Received “EXCELLENT HIGHER EDUCATION INSTITUTE”  in 5th international education excellence award 2020 organized by CMAI Association of India and International Telecommunication Union (ITU), Geneva, Switzerland (Parent organization of United Nations Economic & Social Council).</li>
+                        <li>Awarded ISO 9001 : 2015 for quality management system.</li>
+                        <li>Students who are willing to make their career in cricket have separate option to join Nimbus Cricket Academy with highly specialized coaches (BCCI certified level 1 & 2).</li>
+                        <li>23 players selected for Cricket Association of Uttarakhand (affiliated to BCCI )  in different categories in the year 2019-20.</li>
+                        <li>90% placement record.</li>
+                        <li>Smart class facility for online education and others.</li>
+                        <li>Online library facility with 10,000+ book title.</li>
+                    </ul>
+                    
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
-    <!-- Team End -->
-        
+    <!--  End -->
+
+
+
+   
+
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
+ <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Quick Link</h4>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="">Privacy Policy</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">FAQs & Help</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>National Highway 72 Jhajra, Chakrata Rd, Dehradun, Uttarakhand 248007</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>7088019933, +91-9897580644</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>namdehradun@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <!---
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Gallery</h4>
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
                     </div>
                 </div>
             </div>
+            --->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">NIMBUS</a>, All Right Reserved.
 
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="">HTML Codex</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="#">Zupinn pvt.lmt</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="index.html">Home</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FQAs</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+</div>
+<!-- Footer End -->
+
+  
+
     
+
+    <!---Social Media Start-->
     <div class="floating-social">
-        <a href="https://api.whatsapp.com/send?phone=7302283884" target="_blank" rel="noopener">
-           <img src="/img/whatsapp.svg" alt="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=9897580644" target="_blank" rel="noopener">
+           <img src="https://res.cloudinary.com/dpfgbij4e/image/upload/v1702098222/whatsapp_jkyycb.svg" alt="whatsapp">
         </a>
-        <a href="tel:+917302283884">
-            <img src="/img/phone.svg" alt="phone">
+        <a href="tel:+9897580644">
+            <img src="https://res.cloudinary.com/dpfgbij4e/image/upload/v1702098136/phone_gtpkyh.svg" alt="phone">
         </a>
         <button type="button" class="button-unstyled">
-           <img src="/img/download-round-color-red-icon.webp" alt="email" style="height: 30px; width: 30px;">
+           <img src="https://res.cloudinary.com/dpfgbij4e/image/upload/v1702097694/download-round-color-red-icon_tndqzd.webp" alt="email" style="height: 30px; width: 30px;">
         </button>
     </div>
 

@@ -282,6 +282,23 @@
     color: white;
 }
 
+/* info section */
+.info-img{
+    position: absolute;
+    width: 80px;
+    right: 0;
+}
+
+/* service cards */
+.service-card{
+    background-color: var(--primary);
+    font-size: 20px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {

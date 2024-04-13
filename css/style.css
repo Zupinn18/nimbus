@@ -199,16 +199,15 @@
 }
 
 .info-box {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: #f1f0f0;
-    border-radius: 10px;
-    padding: 30px 30px;
     position: relative;
-    top: 0;
+    text-align: center;
+    margin-bottom: 30px; /* Adjust as needed */
+    /* border: 1px solid #ccc;  */
+    padding: 20px; /* Padding for content */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f1f0f0;
 }
+
 
 .circle {
     transform: translate(-50%, -50%);
@@ -291,14 +290,27 @@
 .info-box p {
     color: #181d38;
 }
-
-.info-heading {
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: -5px;
-    color: var(--primary);
+.info-box {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px; /* Adjust as needed */
 }
 
+.info-img {
+    width: 100%;
+    max-width: 120px; /* Adjust as needed */
+}
+
+.info-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    font-size: 16px;
+    margin-bottom: 0;
+}
 .straight-line {
     width: 1px;
     height: 20px;
@@ -338,9 +350,8 @@
 
 /* info section */
 .info-img {
-    position: absolute;
-    width: 80px;
-    right: 0;
+    width: 100%;
+    max-width: 120px; /* Adjust as needed */
 }
 
 /* service cards */
@@ -484,7 +495,11 @@ button {
     .nav-bar {
         flex-direction: column;
     }
-
+    .col-md-6 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        margin-bottom: 20px; /* Space between boxes */
+    }
     .nav-links {
         flex-direction: column;
         align-items: center;
@@ -495,7 +510,23 @@ button {
     .dropdown-menu {
         position: static; /* Dropdowns expand inline */
     }
+    .container {
+        flex-direction: column;
+    }
 
+    .about img {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .whyus img {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    
+    .about .btn {
+        width: 100%;
+    }
     .nav-right-images img {
         width: 50%; /* Larger tap targets for smaller screens */
     }
@@ -664,11 +695,16 @@ button {
     z-index: 1;
 }
 
+
 @media (min-width: 768px) {
 
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
+    }
+    .testimonial-img {
+        width: 20px; /* Adjust as needed */
+        height: 20px; /* Adjust as needed */
     }
 }
 
@@ -1147,7 +1183,6 @@ body {
     gap: 7.5rem;
     width: 100% !important;
     max-width: 1200px;
-    margin: 40px 40px 40px 40px;
 }
 
 .card {

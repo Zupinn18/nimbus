@@ -450,10 +450,7 @@ button {
     }
 }
 
-.navbar-light .navbar-brand,
-.navbar-light a.btn {
-    height: 75px;
-}
+
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark);
@@ -466,11 +463,11 @@ button {
 }
 
 @media (min-width: 992px) {
-    .nav-bar .nav-item .dropdown-menu {
+    .navbar .nav-bar .nav-item .dropdown-menu {
         display: block;
         margin-top: 0;
         opacity: 0;
-        visibility: hidden;
+       
         transition: .5s;
     }
 

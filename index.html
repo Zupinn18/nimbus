@@ -156,8 +156,8 @@
 
         
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <div class="nav-links">
+        <div class="collapse navbar-collapse " id="navbarNavDropdown" style="width: 100%;" >
+            <div class="nav-links" id="nav-link-container" style="width: 100%;" >
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <div class="straight-line"></div>
                 <div class="nav-item dropdown">
@@ -396,12 +396,14 @@
         </div>
     </div>
     </div> -->
-    <section class="our-academics paddingbox" style="margin-bottom: 50px;">
+    <section class="our-academics paddingbox" style="
+    margin-bottom: 50px;
+    ">
         <div class="pink-bg2" style="background-color: var(--c-fair-pink); border-radius: 8px; ">
             <div class="heading mb-5 text-center p-4" >
                 <h2 style="color: white;">ACADEMIC PROGRAMMES</h2>
             </div>
-            <div class="cards">
+            <div class="cards academic-cards ">
 
 
                 <!-- https://codepen.io/havardob/pen/PoJapGX -->
@@ -583,25 +585,25 @@
                     <div class="row WebsiteStatusHtml">
                         <div class="col-xl-6 col-lg-6 col-md-3 col-6">
                             <div class="top-no">
-                                <div id="ctl02_divExp" class="top-no__count"  style="font-size: 5rem;"><strong>25+</strong></div>
+                                <div id="ctl02_divExp" class="top-no__count noCount " ><strong>25+</strong></div>
                                 <p>Years of Academic <br>Excellence</p>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-3 col-6">
                             <div class="top-no">
-                                <div id="ctl02_divMultidisciplinary" class="top-no__count " style="font-size: 5rem;"><strong> 06+</strong></div>
+                                <div id="ctl02_divMultidisciplinary" class="top-no__count noCount "><strong> 06+</strong></div>
                                 <p>Academic Programes</p>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-3 col-6">
                             <div class="top-no mb-0">
-                                <div id="ctl02_divPlacement" class="top-no__count" style="font-size: 5rem;"><strong>500+</strong></div>
+                                <div id="ctl02_divPlacement" class="top-no__count noCount"><strong>500+</strong></div>
                                 <p>Companies Visited <br>For Placement</p>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-3 col-6">
                             <div class="top-no mb-0">
-                                <div id="ctl02_divAlumni" class="top-no__count" style="font-size: 5rem;"><strong>20K+</strong></div>
+                                <div id="ctl02_divAlumni" class="top-no__count noCount"><strong>20K+</strong></div>
                                 <p>Glorious Alumni</p>
                             </div>
                         </div>
@@ -1090,6 +1092,21 @@
     <script src="js/main.js"></script>
     </script>
     <script>
+        const toggleBtn = document.querySelector('.navbar-toggler');
+        const navbar = document.getElementById('nav-link-container');
+        let toggle = false;
+
+        toggleBtn.addEventListener('click',()=>{
+            toggle=!(toggle);
+            if(toggle === true){
+                navbar.classList.remove("hidden");
+                navbar.classList.add("show");
+            }else{
+                navbar.classList.remove("show");
+                navbar.classList.add("hidden");
+            }
+        })
+        
         const prev = document.getElementById('prev-btn')
         const next = document.getElementById('next-btn')
         const list = document.getElementById('item-list')
@@ -1104,6 +1121,7 @@
         next.addEventListener('click', () => {
             list.scrollLeft += itemWidth + padding
         })
+
     </script>
 </body>
 

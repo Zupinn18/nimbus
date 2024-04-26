@@ -1547,6 +1547,10 @@ body {
     }
 }
 
+.info-text{
+    margin-top: 10px;
+    
+}
 /* toggle classes */
 .hidden{
     display: none;

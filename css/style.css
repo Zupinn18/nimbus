@@ -1547,9 +1547,20 @@ body {
     }
 }
 
+.info-box{
+    height: 380px;
+    padding: 20px 40px;
+}
+
 .info-text{
     margin-top: 10px;
-    
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.info-img{
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 /* toggle classes */
 .hidden{

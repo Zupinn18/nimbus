@@ -183,20 +183,23 @@
                         <a href="#" class="nav-link " data-bs-toggle="dropdown">Academic Programs</a>
                         <div class="dropdown-menu fade-down" style="margin-top: 38px !important;">
                             <div class="arrow-up"></div>
-                            <a href="#" class="dropdown-item nav-item dropdown">
+                            <a href="#" class="dropdown-item nav-item ug-nav dropdown double-nav ">
                                 UG- 
-                                <a href="/BA.html" class="dropdown-item">
-                                    -BA
-                                </a>
-                                <a href="/BBA.html" class="dropdown-item">
-                                    -BBA
-                                </a>
-                                <a href="/Bcom.html" class="dropdown-item">
-                                    -B.Com
-                                </a>
-                                <a href="/Bca.html" class="dropdown-item">
-                                    -BCA
-                                </a>
+                                <div class="arrow-right"></div>
+                                <div class="double-nav-links" >
+                                    <a href="/BA.html" class="dropdown-item">
+                                        -BA
+                                    </a>
+                                    <a href="/BBA.html" class="dropdown-item">
+                                        -BBA
+                                    </a>
+                                    <a href="/Bcom.html" class="dropdown-item">
+                                        -B.Com
+                                    </a>
+                                    <a href="/Bca.html" class="dropdown-item">
+                                        -BCA
+                                    </a>
+                                </div>
                             </a>
                             <a href="/Mba.html" class="dropdown-item">PG- MBA</a>
                             <a href="/Bed.html" class="dropdown-item">Nimbus School Of Education – B.Ed</a>
@@ -297,14 +300,22 @@
                     <p class="main-head">Building Exemplary Forever</p>
                     <p class="main-date">Since 1998</p>
                 </div>
-                <iframe style="
+                <!-- <iframe style="
                 width: 100%;
                 height: 600px;
                 object-fit: cover;
                 margin: 0 auto;
-                " loop="true" autoplay="true"
-                    src="https://www.youtube.com/embed/ulgY1j-Npp8?si=MJF4Gtry7HsKpSng" type="video/mp4">
-                </iframe> 
+                " allow="autoplay"
+                    src="https://www.youtube.com/embed/ulgY1j-Npp8?si=MJF4Gtry7HsKpSng?autoplay=1&showinfo=0&controls=0" >
+                </iframe>  -->
+                <video style="
+                width: 100%;
+                height: 600px;
+                object-fit: cover;
+                margin: 0 auto;
+                " id="homevideo" muted="" autoplay="true" loop="true">
+                    <source src="/img/assests/mainVideo.mp4" type="video/mp4">
+                  </video>
                 <!-- <video id="homevideo" poster="https://upes-production-cvb3e7frghdda0a4.z01.azurefd.net/drupal-data/2023-09/home-mobile.webp" muted="" autoplay="" playsinline="" loop="">
                 <source src="https://upes-production-cvb3e7frghdda0a4.z01.azurefd.net/drupal-data/2023-10/montage-video.mp4" type="video/mp4">
               </video>
@@ -1254,6 +1265,17 @@
     <script>
         const toggleBtn = document.querySelector('.navbar-toggler');
         const navbar = document.getElementById('nav-link-container');
+        const ug = document.querySelector('.ug-nav');
+        const navLinksUG = document.querySelector('.double-nav-links');
+        
+        ug.addEventListener('mouseover',()=>{
+            navLinksUG.style.display = 'block';
+        })
+
+        ug.addEventListener('onmouseleave',()=>{
+            navLinksUG.style.display = 'none';
+        })
+
         let toggle = false;
 
         toggleBtn.addEventListener('click',()=>{

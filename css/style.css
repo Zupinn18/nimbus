@@ -117,8 +117,39 @@ body{
     border-radius: 0px;
 }
 
+/* navbar */
 
+@media screen and (min-width:600px) {
+    .double-nav{
+        position: relative;
+    }
+    
+    .double-nav-links{
+        position: absolute;
+        background-color: rgb(15 24 96);
+        right: -25%;
+        top: 14%;
+        display: none;
+        padding: 8px 12px;
+    }
+    
+    .arrow-right {
+        width: 0; 
+        height: 0; 
+        border-top: 13px solid transparent;
+        border-bottom: 15px solid transparent;
+        
+        border-left: 13px solid #0dcaf0;
+      }
+    
+      .ug-nav{
+        display: flex;
+        justify-content: space-between;
+      }
+}
+  
 
+/* end */
 .main-text{
                     position: absolute;
                     display: flex;

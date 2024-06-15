@@ -1862,3 +1862,26 @@ th{
         gap: 20px;
     }
 }
+
+.admission-cards{
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.admission-card{
+    text-align: center;
+    background-color: #181d38;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px){
+    .admission-cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+    }
+}

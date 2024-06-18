@@ -240,10 +240,35 @@
                     <a href="404.html" class="dropdown-item">Art & Culture</a>
                 </div>
             </div>
-                <a href="contact.html" class="btn btn-primary py-2 px-lg-2 d-none d-lg-block" >Apply Now</a>
+                <a id="apply-btn" href="#"  class="btn btn-primary py-2 px-lg-2 d-none d-lg-block" >Apply Now</a>
         </div>
     </nav>
     <!-- Navbar End -->
+
+     <!-- popup form -->
+     <div class="popup-overlay" id="popupOverlay">
+
+        <div class="popup" id="popup">
+    
+            <span class="close" id="closePopup">&times;</span>
+    
+            <div class="popup-content">
+    
+                <p>Enquiry Form !</p>
+
+                <input class="inputForm" type="text" placeholder="Enter Name" id="name">
+                <input class="inputForm" type="email" placeholder="Enter Email" id="email">
+                <input class="inputForm" type="text" placeholder="Enter Course" id="course">
+                <input class="inputForm" type="number" placeholder="Enter Phone" id="phone">
+    
+                <button onclick="submitForm()">Submit</button>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+
 
 
     <!-- Carousel Start -->
@@ -269,7 +294,7 @@
             gap: 50px;
             " >
             <!-- image -->
-            <img src="./img/assests/about.gif" width="450px" style=" width: 50%; border-radius: 10px;" />
+            <img src="./img/newImages/New folder/SPORTS.jpg" width="450px" style=" width: 50%; border-radius: 10px;" />
 
             <!-- content -->
             <div style="

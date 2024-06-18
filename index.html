@@ -286,7 +286,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link " data-bs-toggle="dropdown">Registration</a>
                     </div> -->
-                    <a href="contact.html" class="btn btn-primary py-2 px-lg-2 d-none d-lg-block"
+                    <a id="apply-btn" href="#" class="btn btn-primary py-2 px-lg-2 d-none d-lg-block"
                         style="background-color: #1FCAC5; color: white; font-weight: 500; ">Apply Now</a>
                 </div>
                 <button>
@@ -297,6 +297,30 @@
     </div>
     </nav>
     <!-- Navbar End -->
+
+    <!-- popup form -->
+    <div class="popup-overlay" id="popupOverlay">
+
+        <div class="popup" id="popup">
+    
+            <span class="close" id="closePopup">&times;</span>
+    
+            <div class="popup-content">
+    
+                <p>Enquiry Form !</p>
+
+                <input class="inputForm" type="text" placeholder="Enter Name" id="name">
+                <input class="inputForm" type="email" placeholder="Enter Email" id="email">
+                <input class="inputForm" type="text" placeholder="Enter Course" id="course">
+                <input class="inputForm" type="number" placeholder="Enter Phone" id="phone">
+    
+                <button onclick="submitForm()">Submit</button>
+    
+            </div>
+    
+        </div>
+    
+    </div>
 
 
     <!-- Carousel Start -->
@@ -712,7 +736,7 @@
     <div class="container-xxl py-5 about">
         <div class="container" style="width: 100%; margin: 0 auto; display: flex; gap: 50px;">
             <!-- image -->
-            <img src="./img/assests/P1122043.jpg" width="450px"
+            <img src="./img/newImages/New folder/about us.jpg" width="450px"
                 style="width: 50%; border-radius: 10px; max-width: 100%; object-fit: cover; " />
 
 
@@ -780,7 +804,7 @@
                 <h1 class="mb-5">Take a Tour</h1>
             </div>
             <div class="row g-4">
-                <img src="img/1527768363phpQawyI8.jpeg" alt="" style="height: 500px; border-radius: 60px;">
+                <img src="img/newImages/New folder/NIMBUS 154.jpg" alt="" style="height: 500px; border-radius: 60px;object-fit: cover;">
 
 
 
@@ -1277,11 +1301,11 @@
         const ug = document.querySelector('.ug-nav');
         const navLinksUG = document.querySelector('.double-nav-links');
         
-        ug.addEventListener('mouseover',()=>{
+        ug.addEventListener('mousedown',()=>{
             navLinksUG.style.display = 'block';
         })
 
-        ug.addEventListener('onmouseleave',()=>{
+        ug.addEventListener('mouseup',()=>{
             navLinksUG.style.display = 'none';
         })
 

@@ -111,10 +111,34 @@
             <a href="404.html" class="nav-item nav-link">Gallery</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Apply Now<i class="fa fa-arrow-right ms-3"></i></a>
+        <a  id="apply-btn" href="#" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Apply Now<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>
 <!-- Navbar End -->
+
+  <!-- popup form -->
+  <div class="popup-overlay" id="popupOverlay">
+
+    <div class="popup" id="popup">
+
+        <span class="close" id="closePopup">&times;</span>
+
+        <div class="popup-content">
+
+            <p>Enquiry Form !</p>
+
+            <input class="inputForm" type="text" placeholder="Enter Name" id="name">
+            <input class="inputForm" type="email" placeholder="Enter Email" id="email">
+            <input class="inputForm" type="text" placeholder="Enter Course" id="course">
+            <input class="inputForm" type="number" placeholder="Enter Phone" id="phone">
+
+            <button onclick="submitForm()">Submit</button>
+
+        </div>
+
+    </div>
+
+</div>
 
     <!-- internal Cell -->
     <div class="internalCell-container" >
@@ -123,29 +147,32 @@
             </p>
         
         
-        <div>
+            <div>
                 <h2>Overview</h2>
                 <p>At Nimbus Academy of Management, we pride ourselves on fostering a vibrant academic community. Our institution offers a diverse range of programs designed to inspire and challenge students. With state-of-the-art facilities and a supportive environment, we ensure that every student has the opportunity to succeed.</p>
-            
-        </div>
+                
+                <div class="admission-container" >
+                    <div class="admission-cards" >
+                        <div class="admission-card" >
+                            Academic Excellence
+                        </div>
+                        <div class="admission-card" >
+                            Dynamic Campus Life
+                        </div>
+                        <div class="admission-card" >
+                            25 Years of Experience
+                        </div>
+                        <div class="admission-card" >
+                            Cutting-Edge Learning Environment
+                        </div>
+                        <div class="admission-card" >
+                            Personalized Academic Support
+                        </div>
+                    </div>
+                    <img src="img/newImages/New folder/ADMISSION OVERVIEW.jpg" width="300px" style="border-radius: 15px;" />
+                </div>
+            </div>
 
-        <div class="admission-cards" >
-            <div class="admission-card" >
-                Academic Excellence
-            </div>
-            <div class="admission-card" >
-                Dynamic Campus Life
-            </div>
-            <div class="admission-card" >
-                25 Years of Experience
-            </div>
-            <div class="admission-card" >
-                Cutting-Edge Learning Environment
-            </div>
-            <div class="admission-card" >
-                Personalized Academic Support
-            </div>
-        </div>
 
         <p>Join us at Nimbus Academy of Management and embark on a journey of discovery, growth, and endless possibilities. If you have any questions or would like to learn more about our programs and offerings, please don’t hesitate to contact our admissions office.</p>
          

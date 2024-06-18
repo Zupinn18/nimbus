@@ -125,10 +125,34 @@
             <a href="404.html" class="nav-item nav-link">Results</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Apply Now<i class="fa fa-arrow-right ms-3"></i></a>
+        <a id="apply-btn" href="#" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Apply Now<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>
 <!-- Navbar End -->
+
+ <!-- popup form -->
+ <div class="popup-overlay" id="popupOverlay">
+
+    <div class="popup" id="popup">
+
+        <span class="close" id="closePopup">&times;</span>
+
+        <div class="popup-content">
+
+            <p>Enquiry Form !</p>
+
+            <input class="inputForm" type="text" placeholder="Enter Name" id="name">
+            <input class="inputForm" type="email" placeholder="Enter Email" id="email">
+            <input class="inputForm" type="text" placeholder="Enter Course" id="course">
+            <input class="inputForm" type="number" placeholder="Enter Phone" id="phone">
+
+            <button onclick="submitForm()">Submit</button>
+
+        </div>
+
+    </div>
+
+</div>
 
 
     <!-- Header Start -->

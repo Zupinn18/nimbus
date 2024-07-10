@@ -228,12 +228,25 @@
     
                 <p>Enquiry Now !</p>
 
-                <input class="inputForm" type="text" placeholder="Enter Name" id="name">
-                <input class="inputForm" type="email" placeholder="Enter Email" id="email">
-                <input class="inputForm" type="text" placeholder="Enter Course" id="course">
-                <input class="inputForm" type="number" placeholder="Enter Phone" id="phone">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="276a43fb-d0b6-47c1-952c-659bd1ee67cd">
+                    <input class="inputForm m-3" name="Name" type="text" placeholder="Enter Name" id="name">
+                    <input class="inputForm m-3" name="Email" type="email" placeholder="Enter Email" id="email">
+                    <!-- <label for="course">Choose courses:</label> -->
+                    <input class="inputForm m-3" name="Courses" type="text" placeholder="Enter Course" id="course" list="courses">
+                    <datalist id="courses">
+                        <option value="BA">
+                        <option value="BBA">
+                        <option value="MBA">
+                        <option value="B.com">
+                        <option value="Bca">
+                        <option value="B.Ed">
+                    </datalist>
+                    <input class="inputForm m-3" name="Phone_number" type="number" placeholder="Enter Phone" id="phone">
+                    <button onclick="submitForm()">Submit</button>
     
-                <button onclick="submitForm()">Submit</button>
+                </form>
+    
     
             </div>
     

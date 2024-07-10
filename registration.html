@@ -237,8 +237,9 @@
 
     <div class="form-container" >
         <h1 style="text-align: center;" >Registration Form</h1>
-        <form class="registration-form" >
+        <form class="registration-form" action="https://api.web3forms.com/submit" method="POST">
             <div class="main-form" >
+                <input type="hidden" name="access_key" value="276a43fb-d0b6-47c1-952c-659bd1ee67cd">
                 <div class="form-field" >
                     <label id="firstName" >First Name</label>
                     <input type="text" name="firstName" id="firstName"  />
@@ -269,7 +270,15 @@
                 </div>
                 <div class="form-field" >
                     <label id="program" >Program</label>
-                    <input type="text" name="program" id="program"  />
+                    <input  type="text" placeholder="Enter Course" id="course" list="courses">
+                    <datalist id="courses">
+                        <option value="BA">
+                        <option value="BBA">
+                        <option value="MBA">
+                        <option value="B.com">
+                        <option value="Bca">
+                        <option value="B.Ed">
+                    </datalist>
                 </div>
             </div>
             <button class="submit-btn " >Submit</button>

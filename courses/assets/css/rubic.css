@@ -11730,8 +11730,8 @@ textarea {
 }
 
 .header {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #efefef url("../img/laboratory_boy.jpeg");
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #efefef url("../img/laboratory_boy.jpeg");
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #efefef url("../img/NIMBUS-hostel.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #efefef url("../img/NIMBUS-hostel.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
